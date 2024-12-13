@@ -6,3 +6,5 @@
   <li>Gerenciamento de estados</li>
   <li>Uso de API</li>
 </ul>
+<h3>Link de acesso abaixo</h3>
+<a href="https://loja-online-kappa.vercel.app/">App Loja Online</a>
