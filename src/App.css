@@ -1,0 +1,166 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.animeLeft{
+  transform: translateX(-20px);
+  opacity: 0;
+  animation: animeLeft 0.3s forwards
+}
+
+@keyframes animeLeft{
+  to{
+    transform: initial;
+    opacity: initial;
+  }
+}
+
+.containerProdutoGeneral{
+  background-color: whitesmoke;
+  text-align: center;
+  width: 600px;
+  display: block;
+  margin: auto;
+}
+
+.containerProduto{
+  /* background-color: red; */
+  display: inline-block;
+  text-align: center;
+  padding: 15px;
+}
+
+.containerTextProduto > h3{
+  all: unset;
+  text-decoration: none;
+}
+
+.containerImagem{
+  width: 150px;
+}
+
+.containerImagem > img{
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.customLink{
+  all: unset;
+  cursor: pointer;
+}
+
+.containerLinks{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.linkHeader{
+  background-color: rgb(236, 236, 236);
+  padding: 5px;
+  border-radius: 2px;
+  margin-right: 15px;
+}
+
+
+.linkHeader:hover{
+  background-color: #ececec;
+}
+
+.active{
+  background-color: #ddd;
+}
+
+.containerHeaderGeneral{
+  width: 600px;
+  display: block;
+  margin: auto;
+}
+
+.containerImagemProdutoUnico > img{
+  width: 200px;
+  display: block;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.containerProdutoUnicoGeneral{
+  width: 600px;
+  display: block;
+  margin: auto;
+}
+
+.containerPai{
+  display: flex;
+}
+
+.containerInformacoes{
+  padding-left: 30px;
+}
+
+.containerProdutoUnicoPreco > p{
+  background-color: greenyellow;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 5px;
+  color: green;
+}
+
+.containerContatoGeneral{
+  width: 600px;
+  display: block;
+  margin: auto;
+}
+
+.containerContatoPai{
+  display: flex;
+}
+
+.containerImgContato > img{
+  width: 200px;
+  display: block;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.containerInformaçõesContato{
+  padding-left: 30px;
+}
+
+.loading{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 10px solid #ccc;
+  border-right-color: transparent;
+  animation: loading 1s infinite;
+}
+
+@keyframes loading{
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.App{
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  max-width: 40rem;
+  margin: 0 auto;
+  min-height: calc(100vh + 10rem);
+}
+
+.content{
+  /* background-color: blue; */
+  flex: 1;
+}
+
+.footer{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #aaa;
+  height: 10rem;
+  padding-top: 5rem;
+  box-sizing: border-box;
+}
